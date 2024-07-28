@@ -23,7 +23,11 @@ Frontend com tela de listagem dos processos e modal para apresentar o histórico
 
 # Como rodar os testes
 
-Antes de rodar os testes do frontend é necessário estar já com a aplicação rodando localmente.
+Antes de rodar os testes do frontend é necessário instalar as dependências localmente e já estar com a aplicação rodando.
+
+```bash
+  npm i
+```
 
 - Testes e2e:
 
