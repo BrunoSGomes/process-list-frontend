@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>{{ data.name }}</h2>
+<mat-dialog-content>
+  Histórico do processo:
+  <ul>
+    <li *ngFor="let item of processData.history">
+      {{ item.description }} ({{
+        item.createdAt | date: 'dd/MM/yyyy HH:mm:ss'
+      }})
+    </li>
+  </ul>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>OK</button>
+</mat-dialog-actions>
