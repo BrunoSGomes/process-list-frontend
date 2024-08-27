@@ -1,4 +1,4 @@
-# Aprova Frontend
+# Documentação
 
 Frontend com tela de listagem dos processos e modal para apresentar o histórico de um determinado processo.
 
